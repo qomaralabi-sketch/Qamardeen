@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* h1 {
+  font-size: 16px;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Arial", sans-serif;
+  font-weight: 600; */
+
+  /* margin: 10px; //all sides */
+  /* margin: 15px 10px 25px 10px; // top, right, bottom, left
+  margin: 10px 20px; // top & bottom, right & left
+  margin-top: 15px; 
+  margin-bottom: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
+
+  padding: 10px; //all sides
+  padding: 15px 10px 25px 10px; // top, right, bottom, left
+  padding: 10px 20px; // top & bottom, right & left
+  padding-top: 15px;
+  padding-bottom: 25px;
+  padding-right: 10px;
+  padding-left: 10px; */
+
+  /* border: 2px solid #000000;
+  border-radius: 5px 10px;
+} */
+/* 
+h1 {
+  display: block;
+}
+span {
+  display: inline;
+  background-color: yellow;
+}
+.card-likes,
+.card-views {
+  display: block;
+  margin-right: 15px;
+  border: black 1px solid;
+  padding: 5px;
+  margin: 5px;
+} */
+/* box-model */
+/* layout  */
+/*flexbox  */
+/* grid  */
+/* box sizing*/
+/* Flex container*/
+/* flex items*/
+
+/* .box {
+  position:relative;
+  display: flex;
+  justify-content:center;
+  align-items:flex-end;
+  gap:10px;
+  background-color: #e3e3e3;
+  width: 500px;
+  height: 200px;
+  margin: 100px auto;
+}
+
+.box-1 {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  background-color: red;
+  width: 100px;
+  /* height: 50px; */
+  /* margin: 5px;
+  padding: 2px;
+  flex-grow: 1;
+  align-self: flex-start;
+
+} */
+/* .box-2 {
+  background-color: green;
+  width: 100px;
+  /* height: 70px; */
+  /* margin: 5px;
+  padding: 2px;
+  flex-grow: 3; */
+ 
+/* } */ 
+/* .box-3 {
+  background-color: blue;
+  width: 100px;
+  /* height: 90px; */
+  /* margin: 5px;
+  padding: 2px; */
+  /* flex-grow: 1; */
+  /* flex-shrink: 2;
+  align-self: center;
+  
+} 
+.gridContainer {
+display: grid;
+justify-content: stretch;
+margin: 50px auto;
+width: 500px;
+background-color: #e3e3e3;
+padding: 10px;
+grid-template-columns: repeat(5, 90px);
+grid-template-rows: repeat(3, 1fr);
+}
+.gridItem {
+  background-color: #ff00ff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.gridItem-1{
+  border: 2px solid green;
+grid-column: 5/6;
+
+  grid-row: -4/4;
+}
+
+
+.gridItem-6{
+  grid-column: 1/span 4 ;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.gridItem-2 {
+  grid-row: span 2;
+} 
+
+
+
+
+
+/*Responsive Design*/
+/* Desktop First - Scalling Down - Desktop is been target first
+
+Scalling Down
+- Large Screen size Extra Large Size or xl
+- Desketop Screen size Large Size or lg
+- Laptop Screen size Medium Size or md
+- Tablet(Landscape) Screen size
+- Tablet (Portrait) Screen size or  Small size or sm
+- Mobile Screen size or Extra Small size or xs
+
+
+/* Mobile First - Scalling Up - Moblile is been target first
+
+Scalling Up
+- Mobile Screen size or Extra Small size or xs
+- Tablet (Portrait) Screen size  or  Small size or sm
+- Tablet(Landscape) Screen size
+- Laptop Screen size or Medium Size or md
+- Desketop Screen size or Large Size or lg
+- Large Screen size or Extra Large Size or xl
+
+
+/* mobile  */
+/* tablet
+laptop
+desktop
+large screen */
+/*Tailwind*/
+/* sm: 640px (40rem)
+md: 768px (48rem)
+lg: 1024px (64rem)
+xl: 1280px (80rem)
+2xl: 1536px (96rem) */
+
+/* Responsive Design  Practice*/
+.container {
+  margin: 2rem 0;
+  padding: 1rem;
+}
+.container-content {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+
+}
+.content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  width: 50%; 
+  font-family: sans-serif;
+
+}
+.content-text > p {
+  
+  text-align: justify;
+}
+
+.content-img {
+  width: 50%
+} 
+
+@media (max-width: 640px) {
+  .container-content{
+    flex-direction: column;
+
+  }
+  .content-text {
+    width: 100%;
+  }
+  .content-img {
+    width: 100%;
+  }
+ .content-text > h1 {
+  font-size: 1.5rem;
+  font-weight: Medium;
+}
+.content-text > p {
+  font-size: 0.875rem;
+  font-weight: normal;
+  text-align: justify;
+}
+};
+
+
+
